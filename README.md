@@ -1,2 +1,58 @@
 # kushalm.github.io
 Personal Portfolio
+
+
+## How to run locally
+
+You can use Docker to run the website to avoid installing any dependencies to
+your local environment. To do so, run:
+
+```shell
+docker-compose up --build
+```
+
+Alternatively, you can run the website locally by installing ruby and then
+installing the project dependencies by running:
+
+```shell
+make install
+```
+
+And then start serving the website:
+
+```shell
+jekyll serve --watch --host 0.0.0.0 --config _config.yml,_config.dev.yml
+```
+
+## Documentation
+
+The theme contains documentation in the form of
+[blog posts](https://le4ker.github.io/personal-jekyll-theme/blog).
+
+## Features
+
+- Fork of [Timeline](https://github.com/kirbyt/timeline-jekyll-theme) (mashup of
+  [Grayscale by Start Bootstrap](https://github.com/IronSummitMedia/startbootstrap-grayscale)
+  and [Agency Jekyll Theme](https://github.com/y7kim/agency-jekyll-theme))
+  - Modern and minimal design
+    - Responsive templates for home page, blog archive and posts. Looks great on
+      mobile, tablet, and desktop devices
+  - Timeline
+    - Tell your story so far with a sleek timeline of dates, pictures and
+      descriptions
+      - White on black text, making the reading experience tireless
+- Customization and full control of your website and blog through the site
+  config
+- Blogging functionality
+  - Preview of the latest post in the home page
+  - Archive page
+  - Syntax highlighting
+  - Hashtags
+  - Categories
+  - Disqus comments
+  - Share buttons
+  - RSS feed
+- Google analytics
+- Cookies consent
+- Protection from email harvesting
+- Sitemap
