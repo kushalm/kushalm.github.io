@@ -1,8 +1,8 @@
 # Site settings
 
 # NB! Set your site's url, otherwise nothing will work
-# url: "https://kushalmahidhar.dev/"
-url: "https://kushalm.github.io"
+url: "https://kushalmahidhar.dev"
+# url: "https://kushalm.github.io"
 
 # # Google tracking id
 # google-tracking-id: "UA-XXXXXXXX-X"
